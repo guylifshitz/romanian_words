@@ -8,5 +8,7 @@ urlpatterns = [
     path('<int:pk>/increase_score', views.increase_score, name='increase_score'),
     path('<int:pk>/decrease_score', views.decrease_score, name='decrease_score'),
     path('<int:pk>', views.show_word, name='show_word'),
+    path('<int:level>/random', views.show_random_word, name='show_random_word'),
+    
 ]
 

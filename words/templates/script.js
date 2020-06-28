@@ -55,10 +55,11 @@ function checkKey(e) {
         window.location.href = "{{pk}}/decrease_score";
     }
     else if (e.keyCode == '37') {
-       // left arrow
+        // left
     }
     else if (e.keyCode == '39') {
        // right arrow
+       window.location.href = "/words/1/random";
     }
 
 }

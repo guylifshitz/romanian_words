@@ -9,6 +9,24 @@ from pathlib import Path
 import pandas as pd
 
 
+
+def show_random_word(request, level):
+    words = Word.objects.filter(level=level)
+    word = random.choice(words)
+    return HttpResponseRedirect(reverse('show_word', args=[word.id]))
+
+    # word = get_object_or_404(Word, pk=pk)
+    # total_score = Word.objects.aggregate(Sum('score'))['score__sum']
+    # print(total_score)
+    # context = {
+    #     'romanian': word.romanian,
+    #     'english': word.english,
+    #     "score": word.score/total_score,
+    #     "pk": pk
+    # }
+
+    # return render(request, 'word.html', context=context)
+
 def show_word(request, pk):
     word = get_object_or_404(Word, pk=pk)
     total_score = Word.objects.aggregate(Sum('score'))['score__sum']
