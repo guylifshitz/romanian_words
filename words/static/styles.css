@@ -1,0 +1,8 @@
+.word_holder{
+    height: 400px;
+}
+
+.word{
+    font-weight: bold;
+    font-size: 50px;
+}

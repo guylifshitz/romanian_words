@@ -1,0 +1,104 @@
+{
+    "words": [
+        {
+            "romanian": "eu",
+            "english": "I"
+        },
+        {
+            "romanian": "sunt",
+            "english": "I am, there are, they are"
+        },
+        {
+            "romanian": "băiat",
+            "english": "boy"
+        },
+        {
+            "romanian": "fată",
+            "english": "girl"
+        },
+        {
+            "romanian": "un",
+            "english": "a, an, one (masculine)"
+        },
+        {
+            "romanian": "Eu sunt un băiat",
+            "english": "I am a boy"
+        },
+        {
+            "romanian": "Eu sunt o fată",
+            "english": "I am a girl"
+        },
+        {
+            "romanian": "el",
+            "english": "he"
+        },
+        {
+            "romanian": "ea",
+            "english": "she"
+        },
+        {
+            "romanian": "bărbat",
+            "english": "man"
+        },
+        {
+            "romanian": "femeie",
+            "english": "woman"
+        },
+        {
+            "romanian": "o",
+            "english": "a, an, one (feminine)"
+        },
+        {
+            "romanian": "mărul",
+            "english": "the apple"
+        },
+        {
+            "romanian": "este",
+            "english": "it, he, she is"
+        },
+        {
+            "romanian": "e",
+            "english": "it, he, she is"
+        },
+        {
+            "romanian": "beau",
+            "english": "I drink"
+        },
+        {
+            "romanian": "bei",
+            "english": "you drink (singular)"
+        },
+        {
+            "romanian": "tu mănânci",
+            "english": "you eat (informal)"
+        },
+        {
+            "romanian": "apă",
+            "english": "water"
+        },
+        {
+            "romanian": "voi mâncați",
+            "english": "you eat (plural/formal)"
+        },
+        {
+            "romanian": "pâine",
+            "english": "bread"
+        },
+        {
+            "romanian": "bărbat",
+            "english": "man (adult male)"
+        },
+        {
+            "romanian": "lapte",
+            "english": "milk"
+        },
+        {
+            "romanian": "Eu sunt o femeie",
+            "english": "I am a woman"
+        },
+        {
+            "romanian": "Eu sunt un bărbat",
+            "english": "I am a man"
+        }
+    ]
+}
